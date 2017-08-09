@@ -2,16 +2,18 @@
 # install
 
 ```
-git clone https://github.com/Thibaut/devdocs.git 
+bash build.sh
 ```
 
-```
-docker build -t devdocs .
-```
-
-# run
+# start
 
 ```
-docker run --name devdocs --rm -d -p 9292:9292 devdocs
+bash start.sh
+```
+
+# stop
+
+```
+bash stop.sh
 ```
 
